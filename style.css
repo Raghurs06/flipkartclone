@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    width: 1012px;
+}
+.flipkartlogo{
+    height: 43px;
+    width: 160px;
+    background: url(flipkart\ logo.png)no-repeat;
+    background-size: contain;
+    border: 2px solid red;
+}
+.navsearch{
+    height: 44px;
+    width: 520px;
+    border: 2px solid red;
+}
+input{
+    height: 40px;
+    width: 510px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+}
+.navlogin{
+    width: 143px;
+    height: 52px;
+}
+.navlogin{
+    height: 24px;
+    width: 44px
+}
+.navcart{
+    height: 24px;
+    width: 44px;
+}
+.navseller{
+    height: 40px;
+    width: 200px;
+}
+.navmenu{
+    height: 24px;
+    width: 44px;
+}
