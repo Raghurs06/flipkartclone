@@ -5,44 +5,327 @@
 }
 .navbar{
     display: flex;
-    height: 67px;
-    width: 1012px;
+    height: 65px;
+    width: 1346px;
+   
+    align-items: center;
+    background-color: white;
 }
+
 .flipkartlogo{
-    height: 43px;
-    width: 160px;
-    background: url(flipkart\ logo.png)no-repeat;
+    height: 38px;
+    width: 150px;
+    background: url(flipkartlogo.png)no-repeat;
     background-size: contain;
-    border: 2px solid red;
+    
+    margin-left: 95px;
+    margin-right: 20px;
 }
 .navsearch{
-    height: 44px;
-    width: 520px;
-    border: 2px solid red;
+    display: flex;
+    height: 34px;
+    width: 530px;
+   
+    background-color: rgb(235, 246, 253);
+    border: solid rgb(235, 246, 253);
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.search{
+    margin-left: 20px;
+    margin-top: 6px;
+    height: 30px;
+    width: 30px;
+    background: url(search.png)no-repeat;
+    background-size: contain;
 }
 input{
-    height: 40px;
-    width: 510px;
+    height: 34px;
+    width: 610px;
     font-size: 17px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 246, 253);
+    border: solid rgb(235, 246, 253);
+    border-radius: 10px;
+    margin-left: 10px;
 }
+
 .navlogin{
-    width: 143px;
-    height: 52px;
+    display: flex;
+    height: 65px;
+    width: 100px;
+    align-items: center;
+    margin-left: 40px;
 }
-.navlogin{
-    height: 24px;
-    width: 44px
+.loginicon{
+    height: 20px;
+    width: 20px;
+    background: url(circle-user.png)no-repeat;
+    background-size: contain;
+   
+
+}
+.login{
+    margin-left: 10px;
+    font-size: 20px;
 }
 .navcart{
     height: 24px;
-    width: 44px;
+    width: 100px;
+    margin-left: 20px;
+}
+i{
+    margin-right: 10px;
 }
 .navseller{
-    height: 40px;
+    display: flex;
+    height: 65px;
     width: 200px;
+    align-items: center;
+}
+.shop{
+    height: 20px;
+    width: 20px;
+    background: url(shop.png)no-repeat;
+    background-size: cover;
+    margin-right: 10px;
 }
 .navmenu{
     height: 24px;
     width: 44px;
+    background: url(menu-dots-vertical.png)no-repeat;
+    background-size: contain;
+}
+body{
+    background-color: rgb(235, 246, 253);
+}
+.mainitems{
+    height: 126px;
+    width: 1320px;
+    display: flex;
+    background-color: white;
+    margin-top: 7px;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.mainitems1{
+    height: 120px;                                                                                              
+    width: 100px;   
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+.firststimg1{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(grocery.jpeg)no-repeat;
+    background-size: cover;
+}
+.firststimg2{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(mobile.jpg)no-repeat;
+    background-size: cover;
+}
+.firststimg3{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(3img.jpg)no-repeat;
+    background-size: cover;
+}
+.mainitems2{
+    height: 120px;
+   
+    margin-left: 3px;
+}
+.firststimg4{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(4img.png)no-repeat;
+    background-size: contain;
+}
+.firststimg5{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 20px;
+    background: url(5img.png)no-repeat;
+    background-size: cover;
+}
+
+.firststimg6{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(6img.webp)no-repeat;
+    background-size: contain;
+}
+
+.mainitems3{
+    height: 120px;
+   
+    margin-left: 20px;
+}
+.firststimg7{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(7img.webp)no-repeat;
+    background-size: cover;
+}
+.mainitems4{
+    height: 120px;
+   
+    margin-left: 3px;
+    align-items: center;
+}
+.firststimg8{
+    height: 80px;
+    width: 80px;
+    
+    margin-left: 29px;
+    background: url(8img.png)no-repeat;
+    background-size: contain;
+}
+.firststimg9{
+    height: 80px;
+    width: 80px;
+   
+    margin-left: 8px;
+    background: url(9img.png)no-repeat;
+    background-size: contain;
+}
+.slides{
+    height: 220px;
+    width: 1320px;
+    margin-top: 18px;
+    margin-left: 15px;
+   
+    background: url(shoppingimg2.webp)no-repeat;
+    background-size: cover;
+}
+.mainmobile{
+    height: 350px;
+    width: 1050px;
+   
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 15px;
+   
+}
+.mainmobile1{
+    display: flex;
+    width: 1050px;
+    height: 68px;
+   
+    align-items: center;
+}
+.best{
+    height: 35px;
+    width: 400px;
+   
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.arrow{
+    height: 30px;
+    width: 30px;
+    
+    margin-left: 560px;
+    background-color: rgb(63, 63, 240);
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.mainmobile2{
+    display: flex;
+    height: 275px;
+    width: 1050px;
+   
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mobile{
+    height: 230px;
+    width: 170px;
+    border: 0.2px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    text-align: center;
+}
+.mobile1{
+    height: 190px;
+    width: 167px;
+   
+    background: url(10.jpg)no-repeat;
+    background-size: cover;
+    
+}
+.mobile2{
+    height: 140px;
+    width: 124px;
+   
+    background: url(11img.png)no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px
+}
+.mobile3{
+    height: 180px;
+    width: 157px;
+   
+    background: url(12img.png)no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.mobile4{
+    height: 170px;
+    width: 147px;
+   
+    background: url(13img.png)no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.mobile5{
+    height: 170px;
+    width: 147px;
+   
+    background: url(14img.png)no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+}
+.add{
+    height: 350px;
+    width: 239px;
+   
+    margin-top: 18px;
+    margin-left: 25px;
+    background-color: white;
+}
+.add1{
+    height: 300px;
+    width: 195px;
+   
+    margin-top: 18px;
+    margin-left: 18px;
+    background: url(15img.png)no-repeat;
+    background-size: contain;
 }
